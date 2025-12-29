@@ -16,7 +16,7 @@ function Form({ getData }) {
   return (
     <form
       onSubmit={submitHandler}
-      className="flex gap-4 items-center justify-center my-5"
+      className="flex gap-4 flex-col md:flex-row items-center justify-center my-5"
     >
       <input
         onChange={(e) => setName(e.target.value)}

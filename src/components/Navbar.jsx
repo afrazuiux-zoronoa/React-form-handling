@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = ({ count, friends }) => {
   return (
-    <div className="flex justify-between items-center px-10 py-4">
+    <div className="flex flex-col gap-4 sm:flex-row justify-between items-center px-10 py-4">
       <h1 className="font-bold text-3xl text-stone-900">Cards Maker</h1>
       <div className="flex gap-4"> 
         <div className="flex gap-2 bg-stone-200 px-3 py-2 rounded-md text-black text-sm">
