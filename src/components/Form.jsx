@@ -30,7 +30,7 @@ function Form({ getData }) {
         value={verse}
         className="border bg-white border-neutral-400 outline-none rounded-md text-sm font-medium px-4 py-2 focus:border-stone-900/75"
         type="text"
-        placeholder="Description..."
+        placeholder="Tagline..."
       />
       <input
         onChange={(e) => setImgURL(e.target.value)}
